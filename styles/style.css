@@ -2,14 +2,14 @@
     font-family: 'Montserrat';
 }
 
-/* header,
+header,
 section,
 footer {
     outline: solid green;
-} */
+}
 
 .container {
-    /* outline: solid red; */
+    outline: solid red;
 
     width: 1230px;
     padding-left: 15px;
