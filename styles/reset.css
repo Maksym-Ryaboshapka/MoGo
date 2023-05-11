@@ -27,6 +27,7 @@ button {
     padding: 0;
     border: none;
     margin: 0;
+    display: block;
 }
 
 input {
