@@ -81,10 +81,12 @@
 
 .services-item {
     width: 327px;
+    display: flex;
 }
 
-.services-flex1 {
+.services-flex {
     display: flex;
+    flex-direction: column;
 }
 
 .services-img {
@@ -101,21 +103,19 @@
     margin-bottom: 20px;
 }
 
-.services-description-top {
+.services-description {
     color: #B6B6B6;
     font-size: 15px;
     line-height: 1.46;
     font-family: 'Roboto';
-    margin-left: 52px;
 }
 
-.services-description-bottom {
+/* .services-description-bottom {
     color: #B6B6B6;
     font-size: 15px;
     line-height: 1.46;
     font-family: 'Roboto';
-    margin-left: 52px;
-}
+} */
 
 .team {
     padding-top: 100px;
@@ -187,6 +187,7 @@
 .footer {
     padding-top: 22px;
     padding-bottom: 20px;
+    border-top: 1px solid #B6B6B6;
 }
 
 .footer-flex {
